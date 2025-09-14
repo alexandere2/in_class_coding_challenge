@@ -22,6 +22,9 @@ new_object = {sku: "SKU-667"}, {name: "67 Water",}, {price: 6.70}, {stock: 67.00
 inventory.push(new_object);
 console.log (inventory);
 
-inventory.pop(new_object);
+inventory.shift();
 console.log(inventory);
+
+
+
 
